@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portal de games TIAW</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>Jogos</h1>
+                <a href="./pages/new.html">Notícias</a>
+                <a href="./pages/achievements.html">Desafios</a>
+                <a href="./pages/additions.html">DLC</a>
+                <a href="./pages/platform.html">Plataformas</a>
+                <a href="./pages/contact.html">Contato</a>
+            </nav>
+            <input type="text" id="search" placeholder="RODRIGO TADEU / CURSO: ADS / MATRÍCULA 00792289" class="Pesquisa">
+            <input type="button" class="btnPesquisa" name="Buscar" onclick="PesquisarJogo()" value="Buscar">
+        </header>
+
+        <main>
+            <section id="a">
+
+            </section>
+            <aside>
+                <p id="identity"></p>
+            </aside>
+            <h2>Mais Jogados</h2>
+
+            <section id="gamesCards">
+
+            </section>
+        </main>
+
+        <script type="module" src="js/main.js"></script>
+        <script src="js/pesquisar.js"></script>
+    </body>
+</html>
